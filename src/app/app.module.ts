@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DatePipePipe } from './pipes/date-pipe.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DatePipePipe
   ],
   imports: [
     BrowserModule
